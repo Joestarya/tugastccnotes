@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplikasi Notes</h1>
+        
+        <div class="form-group">
+            <input type="hidden" id="note-id">
+            <input type="text" id="judul" placeholder="Judul Catatan" required>
+            <textarea id="isi" placeholder="Isi Catatan" required></textarea>
+            <button onclick="saveNote()" id="btn-save">Simpan Catatan</button>
+        </div>
+
+        <div id="notes-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+### ----------------------------------------------------
+### NOTES ENDPOINTS
+### ----------------------------------------------------
+
+### Get all notes
+GET http://localhost:3000/notes
+
+### Create a note
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "judul": "Catatan Pertama",
+    "isi": "Ini adalah isi catatan pertama saya."
+}
+
+### Get note by id
+GET http://localhost:3000/notes/1
+
+### Update a note
+PATCH http://localhost:3000/notes/1
+Content-Type: application/json
+
+{
+    "judul": "Catatan Pertama Diupdate",
+    "isi": "Isi catatan telah diperbarui."
+}
+
+### Delete a note
+DELETE http://localhost:3000/notes/1
