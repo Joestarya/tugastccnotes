@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Register routes
 app.use(notesRoute);
-
+    
 // Test and sync database
 (async () => {
     try {

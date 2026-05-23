@@ -1,0 +1,11 @@
+runtime: nodejs20
+env: standard
+
+instance_class: F1
+
+env_variables:
+  DB_HOST: "34.172.113.167"
+  DB_USER: "admin"
+  DB_PASS: "mypassword"
+  DB_NAME: "notes_123230196"
+  PORT: "8080"
