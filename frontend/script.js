@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/notes'; // Karena backend tetap jalan lokal
+const API_URL = 'http://34.101.165.131:3000/notes';
 
 // Ambil dan tampilkan catatan
 async function fetchNotes() {
